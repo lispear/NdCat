@@ -163,4 +163,4 @@ Contributions to NdCat are welcome! If you have any bug reports, feature request
 
 ## License
 
-NdCat is released under the MIT License.
+NdCat is released under Apache-2.0 license
