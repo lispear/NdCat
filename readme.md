@@ -42,7 +42,7 @@ You can install NdCat using pip:
 
 pip install ndcat-0.1.tar.gz
 
-[Download NdCat package](https://github.com/ql-aster/NdCat/releases/download/v0.1.0/ndcat-0.1.tar.gz)
+[Download NdCat package](https://github.com/ql-aster/NdCat/files/11835607/ndcat-0.1.tar.gz)
 
 ## Usage
 
