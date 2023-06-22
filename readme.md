@@ -130,7 +130,6 @@ where red elements are from variable `diag`, blue elements are from variable `of
 from ndcat import CatGenerator
 
 dim = 3
-dim = 3
 rows, cols = [[1], [1, 2]], [[2], [3, 4]]
 rows_loc, cols_loc = [0, 1], [1, 2]
 cat_matrix = CatGenerator.create(dim, 'laplace', rows, cols, rows_loc, cols_loc)
