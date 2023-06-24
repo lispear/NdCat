@@ -42,7 +42,7 @@ You can install NdCat using pip:
 
 pip install ndcat-0.1.tar.gz
 
-[Download NdCat package](https://github.com/ql-aster/NdCat/releases/download/v0.1.0/ndcat-0.1.tar.gz)
+[Download NdCat package](https://github.com/ql-aster/NdCat/files/11835607/ndcat-0.1.tar.gz)
 
 ## Usage
 
@@ -130,7 +130,6 @@ where red elements are from variable `diag`, blue elements are from variable `of
 from ndcat import CatGenerator
 
 dim = 3
-dim = 3
 rows, cols = [[1], [1, 2]], [[2], [3, 4]]
 rows_loc, cols_loc = [0, 1], [1, 2]
 cat_matrix = CatGenerator.create(dim, 'laplace', rows, cols, rows_loc, cols_loc)
@@ -163,4 +162,4 @@ Contributions to NdCat are welcome! If you have any bug reports, feature request
 
 ## License
 
-NdCat is released under the MIT License.
+NdCat is released under Apache-2.0 license
