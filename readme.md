@@ -50,7 +50,7 @@ pip install ndcat-0.1.tar.gz
 
 The CatMatrix class represents a cat matrix, which is a square matrix that satisfies certain conditions. Here's an example of how to use it:
 
-```
+```python
 from ndcat import CatMatrix
 
 matrix = [[1, 1], [1, 2]]
@@ -63,7 +63,7 @@ print(cat_matrix)
 
 The CatMatrix class provides a random method to generate random cat matrices. Here's an example of how to use it:
 
-```
+```python
 from ndcat import CatMatrix
 
 dim = 3
@@ -76,7 +76,7 @@ print(cat_matrix)
 
 The CatMap class represents a cat map, which is a type of cat matrix with a modulo size. It inherits from the CatMatrix class. Here's an example of how to use it:
 
-```
+```python
 from ndcat import CatMap
 
 matrix = [[1, 1], [1, 2]]
@@ -96,7 +96,7 @@ print(mapped_data)
 
 The cube_coord function is a utility function that generates cube coordinates for a given dimension and size. Here's an example of how to use it:
 
-```
+```python
 from ndcat import cube_coord
 
 dimension = 3
@@ -109,7 +109,7 @@ print(coordinates)
 ## Example of Extension
 
 1. Block Matrix Combination
-```
+```python
 from ndcat import CatGenerator
 
 dim = 5
@@ -126,7 +126,7 @@ print(cat_matrix)
 where red elements are from variable `diag`, blue elements are from variable `off_diag` 
 
 2. Laplace Expansion
-```
+```python
 from ndcat import CatGenerator
 
 dim = 3
